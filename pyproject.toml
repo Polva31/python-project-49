@@ -1,19 +1,16 @@
 [project]
-name = "hexlet-code"
+name = "brain-games"
 version = "0.1.0"
-description = "Brain Games project"
-authors = [
-    { name = "Your Name", email = "your.email@example.com" },
+description = "Brain Games"
+authors = [{name = "Your Name"}]
+readme = "README.md"
+dependencies = [
+    "prompt",
 ]
-dependencies = []
-requires-python = ">=3.10"
+
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-[tool.hatch.build.targets.wheel]
-packages = ["brain_games"]
-
-[project.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
