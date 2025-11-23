@@ -14,7 +14,7 @@ brain-even = "scripts.brain_even:main"
 brain-calc = "scripts.brain_calc:main"
 brain-gcd = "scripts.brain_gcd:main"
 brain-progression = "scripts.brain_progression:main"
-
+brain-prime = "scripts.brain_prime:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
