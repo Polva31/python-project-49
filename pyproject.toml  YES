@@ -9,10 +9,10 @@ dependencies = [
 ]
 
 [project.scripts]
-brain-games = "scripts.brain_games:main"
-brain-even = "scripts.brain_even:main"
-brain-calc = "scripts.brain_calc:main"
-brain-gcd = "scripts.brain_gcd:main"
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "scripts.brain_progression:main"
 
 [build-system]
