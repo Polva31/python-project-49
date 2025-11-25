@@ -1,0 +1,35 @@
+# Игры разума
+
+[![Hexlet-check](https://github.com/Polva31/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Polva31/python-project-49/actions/workflows/hexlet-check.yml)
+[![SonarQube](https://github.com/Polva31/python-project-49/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/Polva31/python-project-49/actions/workflows/sonarqube.yml)
+
+## Описание
+Набор мини-игр для тренировки мозга.
+
+## Установка
+make install
+
+## Использование
+brain-games
+
+## Игры
+
+### Brain Even
+Определение чётного числа
+[![asciicast](https://asciinema.org/a/ВАШ_ID_1.png)](https://asciinema.org/a/ВАШ_ID_1)
+
+### Brain Calc
+Вычисление арифметических выражений
+[![asciicast](https://asciinema.org/a/ВАШ_ID_2.png)](https://asciinema.org/a/ВАШ_ID_2)
+
+### Brain GCD
+Нахождение наибольшего общего делителя
+[![asciicast](https://asciinema.org/a/ВАШ_ID_3.png)](https://asciinema.org/a/ВАШ_ID_3)
+
+### Brain Progression
+Поиск пропущенного числа в прогрессии
+[![asciicast](https://asciinema.org/a/ВАШ_ID_4.png)](https://asciinema.org/a/ВАШ_ID_4)
+
+### Brain Prime
+Определение простого числа
+[![asciicast](https://asciinema.org/a/ВАШ_ID_5.png)](https://asciinema.org/a/ВАШ_ID_5)

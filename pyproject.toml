@@ -5,6 +5,7 @@ description = "Brain Games"
 authors = [{name = "Polva31"}]
 readme = "README.md"
 dependencies = [
+    "asciinema>=2.4.0",
     "prompt",
 ]
 
