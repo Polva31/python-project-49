@@ -1,21 +1,34 @@
 # Brain Games
 
-Github Actions Status: https://github.com/Polva31/python-project-49/actions/workflows/hexlet-check.yml/badge.svg
-Quality Gate Status: https://sonarcloud.io/api/project_badges/measure?project=Polva31_python-project-49&metric=alert_status
+[![Hexlet-check](https://github.com/Polva31/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Polva31/python-project-49/actions/workflows/hexlet-check.yml)
+[![SonarQube](https://github.com/Polva31/python-project-49/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/Polva31/python-project-49/actions/workflows/sonarqube.yml)
 
 ## Описание
 Набор мини-игр для тренировки мозга.
 
 ## Установка
+```bash
 make install
+```
 
 ## Использование
+```bash
 brain-games
+```
 
-## Игра Калькулятор brain-calc
+## Игры
 
-Игра для вычисления арифметических выражений
+### Brain Even
+Определение чётного числа
 
-## Игра НОД brain-gcd
+### Brain Calc
+Вычисление арифметических выражений
 
-Игра для нахождения наибольшего общего делителя
+### Brain GCD
+Нахождение наибольшего общего делителя
+
+### Brain Progression
+Поиск пропущенного числа в прогрессии
+
+### Brain Prime
+Определение простого числа
