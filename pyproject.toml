@@ -1,25 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "hexlet-code"
-version = "0.1.0"
+version = "1.0.0"
 description = "Brain Games"
-authors = [{name = "Polva31"}]
 readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Polina", email = "ваш-email@example.com"},
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
 dependencies = [
     "asciinema>=2.4.0",
     "prompt",
 ]
+scripts = {brain-games = "brain_games.scripts.brain_games:main"}
 
 [project.scripts]
-brain-games = "scripts.brain_games:main"
-brain-even = "scripts.brain_even:main"
-brain-calc = "scripts.brain_calc:main"
-brain-gcd = "scripts.brain_gcd:main"
-brain-progression = "scripts.brain_progression:main"
-brain-prime = "scripts.brain_prime:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[project.urls]
+Homepage = "https://github.com/Polva31/python-project-49"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
 
 [tool.ruff]
 line-length = 100
