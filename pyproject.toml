@@ -21,9 +21,9 @@ dependencies = [
     "asciinema>=2.4.0",
     "prompt",
 ]
-scripts = {brain-games = "brain_games.scripts.brain_games:main"}
 
 [project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
