@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-  {name = "Polina", email = "ваш-email@example.com"},
+  {name = "Polina", email = "V.Pol-31@yandex.ru"},
 ]
 classifiers = [
   "Programming Language :: Python :: 3",
@@ -39,3 +39,5 @@ packages = ["brain_games"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+
+
