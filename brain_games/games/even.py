@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import random
 
+
 def is_even(number):
     return number % 2 == 0
+
 
 def generate_round():
     number = random.randint(1, 100)

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-import random
 import operator
+import random
+
 
 def calculate_expression(num1, num2, operation):
     operations = {
@@ -9,6 +10,7 @@ def calculate_expression(num1, num2, operation):
         '*': operator.mul
     }
     return operations[operation](num1, num2)
+
 
 def generate_round():
     num1 = random.randint(1, 25)

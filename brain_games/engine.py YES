@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 import prompt
-
-
 def run_game(generate_round, description):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")

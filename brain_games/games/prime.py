@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import random
 
+
 def is_prime(number):
     if number < 2:
         return False
@@ -8,6 +9,7 @@ def is_prime(number):
         if number % divisor == 0:
             return False
     return True
+
 
 def generate_round():
     number = random.randint(1, 100)

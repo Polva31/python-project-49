@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import random
 
+
 def generate_round():
     start = random.randint(1, 50)
     step = random.randint(1, 10)
