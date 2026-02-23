@@ -31,3 +31,20 @@ brain-games
 
 ### Brain Prime
 Определение простого числа
+
+## Asciinema записи игр
+
+### Brain-even
+[![asciicast](https://asciinema.org/a/9GS9vZY8pISPp0rx.svg)](https://asciinema.org/a/9GS9vZY8pISPp0rx)
+
+### Brain-calc
+[![asciicast](https://asciinema.org/a/wsN0WKWQDhczv1cd.svg)](https://asciinema.org/a/wsN0WKWQDhczv1cd)
+
+### Brain-gcd
+[![asciicast](https://asciinema.org/a/080IR7o1ilo2sPyX.svg)](https://asciinema.org/a/080IR7o1ilo2sPyX)
+
+### Brain-progression
+[![asciicast](https://asciinema.org/a/dqXLmSuoF0nefqcy.svg)](https://asciinema.org/a/dqXLmSuoF0nefqcy)
+
+### Brain-prime
+[![asciicast](https://asciinema.org/a/UjlvCCTBR1qr5eFV.svg)](https://asciinema.org/a/UjlvCCTBR1qr5eFV)
