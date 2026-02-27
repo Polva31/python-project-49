@@ -3,12 +3,12 @@ import random
 
 
 def generate_round():
-    start = random.randint(1, 50)
-    step = random.randint(1, 10)
+    start = random.randint(1, 50)  # NOSONAR
+    step = random.randint(1, 10)  # NOSONAR
     length = 10
     progression = [start + step * i for i in range(length)]
     
-    hidden_index = random.randint(0, length - 1)
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
     correct_answer = str(progression[hidden_index])
     
     progression[hidden_index] = '..'

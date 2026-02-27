@@ -13,9 +13,9 @@ def calculate_expression(num1, num2, operation):
 
 
 def generate_round():
-    num1 = random.randint(1, 25)
-    num2 = random.randint(1, 25)
-    operation = random.choice(['+', '-', '*'])
+    num1 = random.randint(1, 25)  # NOSONAR
+    num2 = random.randint(1, 25)  # NOSONAR
+    operation = random.choice(['+', '-', '*'])  # NOSONAR
     
     question = f"{num1} {operation} {num2}"
     correct_answer = str(calculate_expression(num1, num2, operation))
